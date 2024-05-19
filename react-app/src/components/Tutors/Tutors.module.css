@@ -7,10 +7,9 @@
 .tutorsContainer {
     display: flex;
     flex-direction: row;
-    gap: 24px;
     justify-content: center;
     align-items: center;
-
+    gap: 24px;
 }
 
 .tutorName {
@@ -18,7 +17,7 @@
     flex-direction: column;
 }
 
-.tutorContact {
+.tutorContacts {
     display: flex;
     flex-direction: column;
 }

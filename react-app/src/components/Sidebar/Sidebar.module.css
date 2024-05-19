@@ -10,11 +10,11 @@
 }
 
 .wrapperContainer {
-	height: calc(100% - 80px - 48px);
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-	padding: 24px;
+  height: calc(100% - 80px - 48px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 24px;
 }
 
 .listWrapper {
@@ -25,14 +25,14 @@
 }
 
 .userName {
-	display: flex;
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
-	margin-bottom: 24px;
+  margin-bottom: 24px;
 }
 
 .text {
-	display: flex;
+  display: flex;
   justify-content: center;
   align-items: center;
   gap: 24px;
@@ -43,9 +43,9 @@
   line-height: 24px;
   letter-spacing: 1.25px;
   text-align: left;
-	text-transform: uppercase;
+  text-transform: uppercase;
 }
 
 .sidebar svg {
-	fill: #FF6B0A;
+  fill: #FF6B0A;
 }
