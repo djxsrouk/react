@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./Sidebar.module.css";
 import { MdAccountCircle } from "react-icons/md";
-import PropTypes from "prop-types";
+import PropTypes from 'prop-types';
 
 const Sidebar = ({ data }) => {
   return (
@@ -30,6 +30,7 @@ const Sidebar = ({ data }) => {
 };
 
 Sidebar.propTypes = {
-  data: PropTypes.arrayOf(PropTypes.object),
+  data: PropTypes.arrayOf(PropTypes.object)
 };
+
 export default Sidebar;

@@ -16,4 +16,5 @@ function ThemedButton({ children, ...restProps }) {
     </button>
   );
 }
+
 export default ThemedButton;

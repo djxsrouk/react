@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Paper from "../Paper/Paper";
 import styles from "./University.module.css";
 import universityEmoji from "../../../public/University.png";
@@ -16,10 +16,14 @@ const University = ({ name, description }) => {
         <p className={styles.universityType}>University</p>
         <p className={styles.univeristyName}>{name}</p>
       </Paper>
-      <Paper>{description}</Paper>
+
+      <Paper>
+        <p>{description}</p>
+      </Paper>
     </div>
   );
 };
+
 University.propTypes = {
   name: PropTypes.string,
   description: PropTypes.string,

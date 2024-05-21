@@ -10,7 +10,7 @@ import ThemeContext from "./components/ThemeContext/ThemeContext";
 import theme from "./helpers/themeColors";
 
 function App() {
-  const { name, description, tutors } = data;
+  const { name, description } = data;
 
   return (
     <main>
@@ -18,7 +18,7 @@ function App() {
         <Sidebar data={menuConfig} />
         <section className="container">
           <University name={name} description={description} />
-          <Tutors tutors={tutors} />
+          <Tutors />
           <Cities />
           <Faculties />
         </section>

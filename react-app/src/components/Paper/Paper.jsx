@@ -8,10 +8,7 @@ const Paper = ({ children, className }) => {
   return (
     <div
       className={clsx(styles.paperWrapper, className)}
-      style={{
-        backgroundColor: theme.paperBackground,
-        color: theme.paperColor,
-      }}
+      style={{ backgroundColor: theme.paperBackground, color: theme.paperColor }}
     >
       {children}
     </div>
