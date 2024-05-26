@@ -18,7 +18,7 @@ const University = ({ name, description }) => {
       </Paper>
 
       <Paper>
-        <p>{description}</p>
+        <p className={styles.universityDescription}> {description}</p>
       </Paper>
     </div>
   );
