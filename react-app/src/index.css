@@ -13,9 +13,9 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
-@font-face{
+@font-face {
   font-family: "Virgil";
-  src:local("Virgil"), url(./fonts//Virgil.woff2) format("woff2")
+  src: local("Virgil"), url(./fonts/Virgil.woff2) format("woff2")
 }
 
 a {

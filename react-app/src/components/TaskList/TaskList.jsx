@@ -4,6 +4,7 @@ function Task({ task, onDelete }) {
   const handleDeleteButton = () => {
     onDelete(task.id);
   };
+
   return (
     <div>
       <label>

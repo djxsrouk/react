@@ -2,6 +2,7 @@ import React, { useState } from "react";
 
 function AddTask({ onAddTask }) {
   const [text, setText] = useState("");
+
   const handleAddButton = () => {
     onAddTask(text);
     setText("");
@@ -11,7 +12,7 @@ function AddTask({ onAddTask }) {
     <>
       <input
         type="text"
-        placeholder="Add Task"
+        placeholder="Add task"
         value={text}
         onChange={(e) => setText(e.target.value)}
       />

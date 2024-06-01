@@ -1,7 +1,5 @@
 import React from "react";
-import TasksList from "../components/TasksList/TasksApp";
-import { Outlet, useParams } from "react-router-dom";
-
+import { Outlet } from "react-router-dom";
 function Playground() {
   return (
     <>
@@ -10,4 +8,5 @@ function Playground() {
     </>
   );
 }
+
 export default Playground;
