@@ -7,7 +7,7 @@ import TasksApp from "./components/TasksApp/TasksApp";
 import { useLocation } from "react-router-dom";
 
 function App() {
-  const location = useLocation();
+  useLocation();
 
   return (
     <Routes>
